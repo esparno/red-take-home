@@ -50,7 +50,7 @@ docker-compose down -v
 ```
 
 ## Data
-ALl of this output is available by default by just running `./submitJob.sh` without making any changes at all.
+All of this output is available by default by just running `./submitJob.sh` without making any changes at all.
 
 ### Toppings
 ```aidl
