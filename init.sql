@@ -1,21 +1,18 @@
 CREATE TABLE IF NOT EXISTS toppings (
 	id varchar(255),
 	topping_name varchar(255),
-	cost numeric(9,2),
-	PRIMARY KEY( id )
+	cost numeric(9,2)
 );
 
 CREATE TABLE IF NOT EXISTS pizzas (
 	id varchar(255),
-	topping_id varchar(255),
-	PRIMARY KEY( id )
+	topping_id varchar(255)
 );
 
 CREATE TABLE IF NOT EXISTS orders (
 	id varchar(255),
 	purchaser varchar(255),
-	pizza_id varchar(255),
-	PRIMARY KEY( id )
+	pizza_id varchar(255)
 );
 
 INSERT INTO toppings(id, topping_name, cost)
