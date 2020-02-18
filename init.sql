@@ -41,6 +41,6 @@ INSERT INTO orders(id, purchaser, pizza_id)
 VALUES
 ('8bc5e8eb-0782-4447-8829-5a83b6836f2f','Adam Costanza', '0fe095d9-def2-4360-9080-7e16774f6e57'),
 ('8bc5e8eb-0782-4447-8829-5a83b6836f2f','Adam Costanza', '5b382ab1-4dc3-4e23-a601-eadaaccc4122'),
-('8bc5e8eb-0782-4447-8829-5a83b6836f2f','Steve Naumann', '129bb5b5-bef9-47ce-a7e0-39e34a8ffa0c'),
-('8bc5e8eb-0782-4447-8829-5a83b6836f2f','Nate McArdle', 'd33435fc-b20f-4644-9a91-b47befb0c645');
+('9aaf3d6e-0808-4b89-823e-e1fbc3a4ae8a','Steve Naumann', '129bb5b5-bef9-47ce-a7e0-39e34a8ffa0c'),
+('3c2f92e0-c561-47bc-bdda-38271af45086','Nate McArdle', 'd33435fc-b20f-4644-9a91-b47befb0c645');
 
