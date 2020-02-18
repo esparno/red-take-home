@@ -31,6 +31,10 @@ The code you write should create an output that looks like this:
 ## Installation
 You will need docker, docker-compose, Java 8, and SBT to run this code base.
 
+## Writing your code
+You will want to add your code to the file in `src/main/scala/Main.scala`. We have gone ahead and taken
+care of all the boilerplate for you so that you can get straight to writing Spark code. 
+
 ## Testing your code
 To submit your code to spark, simply run the following commands:
 
