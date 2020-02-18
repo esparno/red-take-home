@@ -1,4 +1,4 @@
-sbt assembly
+#sbt assembly
 MASTER=$(docker-compose ps -q spark-master)
 docker-compose exec spark-master mkdir -p /opt/app
 docker-compose exec spark-master rm /opt/app/RedTakeHome-assembly-1.0.jar
