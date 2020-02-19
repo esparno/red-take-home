@@ -9,9 +9,9 @@ Since we are running a special, the cost of a pizza is simply the sum of all of 
 Given all of the orders in the `orders` table, use Spark and Scala to generate a table that has the schema:
 
 ```
-order_id: String (UUID) -- the order id
+id: String (UUID) -- the order id
 purchaser: String --  the purchaser name
-toppings: Array[Array[String]] -- an array of the array of toppings per pizza
+pizza_toppings: Array[Array[String]] -- an array of the array of toppings per pizza
 pizza_costs: Array[Double] -- an array of costs for each pizza (sum of all topping costs)
 total_cost: Double - the total cost of adding up all of the pizzas
 ```
